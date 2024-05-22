@@ -1,0 +1,80 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_361)
+[debug]       Load.loadUnit: plugins took 130.4558ms
+[debug]       Load.loadUnit: defsScala took 0.5083ms
+[debug] [Loading] Scanning directory C:\Users\hunky\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hunky\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 42.5092 ms
+[debug]           Load.resolveProject(global-plugins) took 171.5095ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\hunky\.sbt\1.0\plugins, plugins: List(<none>))) took 245.1823ms
+[debug] [Loading] Done in C:\Users\hunky\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 316.8524ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2723ms
+[debug]     Load.loadUnit(file:/C:/Users/hunky/.sbt/1.0/plugins/, ...) took 459.1157ms
+[debug]   Load.apply: load took 652.2733ms
+[debug]   Load.apply: resolveProjects took 6.8714ms
+[debug]   Load.apply: finalTransforms took 64.2096ms
+[debug]   Load.apply: config.delegates took 7.3907ms
+[debug]   Load.apply: Def.make(settings)... took 669.5225ms
+[debug]   Load.apply: structureIndex took 106.5821ms
+[debug]   Load.apply: mkStreams took 2.0833ms
+[info] loading global plugins from C:\Users\hunky\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4625.7282ms
+[debug]           Load.loadUnit: plugins took 28.8435ms
+[debug]           Load.loadUnit: defsScala took 0.0048ms
+[debug] [Loading] Scanning directory D:\Sunway\BSE Sem 3\2308-PRG2104 OBJECT-ORIENTED PROGRAMMING\Assignment 2\Assignment2\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Sunway\BSE Sem 3\2308-PRG2104 OBJECT-ORIENTED PROGRAMMING\Assignment 2\Assignment2\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1972 ms
+[debug]               Load.resolveProject(assignment2-build) took 0.7209ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id assignment2-build, base: D:\Sunway\BSE Sem 3\2308-PRG2104 OBJECT-ORIENTED PROGRAMMING\Assignment 2\Assignment2\project, plugins: List(<none>))) took 2.2708ms
+[debug] [Loading] Done in D:\Sunway\BSE Sem 3\2308-PRG2104 OBJECT-ORIENTED PROGRAMMING\Assignment 2\Assignment2\project, returning: (assignment2-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3.4767ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0114ms
+[debug]         Load.loadUnit(file:/D:/Sunway/BSE%20Sem%203/2308-PRG2104%20OBJECT-ORIENTED%20PROGRAMMING/Assignment%202/Assignment2/project/, ...) took 33.252ms
+[debug]       Load.apply: load took 34.2852ms
+[debug]       Load.apply: resolveProjects took 0.0695ms
+[debug]       Load.apply: finalTransforms took 6.5632ms
+[debug]       Load.apply: config.delegates took 0.243ms
+[debug]       Load.apply: Def.make(settings)... took 66.6001ms
+[debug]       Load.apply: structureIndex took 17.1662ms
+[debug]       Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from D:\Sunway\BSE Sem 3\2308-PRG2104 OBJECT-ORIENTED PROGRAMMING\Assignment 2\Assignment2\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
